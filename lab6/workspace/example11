@@ -1,0 +1,18 @@
+#!/bin/bash
+# function
+func()
+{
+local a="Test"
+b="change"
+echo "Let's begin now."
+echo $a $b $c
+echo $1 $2 $3
+echo "The end."
+return 0
+}
+a="Working directory"
+b="is"
+c=`pwd`
+echo $a $b $c
+func Welcome You, $1
+echo $a $b $c

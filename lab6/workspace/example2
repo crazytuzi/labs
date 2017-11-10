@@ -1,0 +1,6 @@
+#!/bin/bash
+#This script displays the date and calendar.
+echo "This is date"
+date
+echo "This is system info"
+uname -a

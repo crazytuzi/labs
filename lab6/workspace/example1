@@ -1,0 +1,4 @@
+#!/bin/bash
+#This script displays the date and calendar.
+date
+uname -a

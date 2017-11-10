@@ -1,0 +1,8 @@
+#!/bin/bash
+# while
+i=0
+while [ $i -ne 5 ]
+do
+  echo $i Hello, world!
+  i=$(($i+1))
+done

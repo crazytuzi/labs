@@ -1,0 +1,5 @@
+for backup:
+1) excute script
+./backup.sh
+2) edit /etc/crontab, add a line:
+0  0	* * *	root	 /root/backup.sh
